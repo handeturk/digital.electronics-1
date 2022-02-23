@@ -7,7 +7,8 @@
 
    Greater than:
 
-   ![K-maps](images/kmap_empty.png)
+   ![WhatsApp Image 2022-02-23 at 23 43 52](https://user-images.githubusercontent.com/99410897/155422277-66c05349-09e0-42c8-95ca-28fe3492475b.jpeg)
+
 
    Less than:
 
