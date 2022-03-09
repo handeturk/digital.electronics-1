@@ -90,7 +90,8 @@ p_stimulus : process
 
 1. Listing of LEDs(7:4) part of VHDL architecture from source file `top.vhd`. Try to write logic functions as simple as possible. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
-  -- Turn LED(4) on if input value is equal to 0, ie "0000"    
+  
+-- Turn LED(4) on if input value is equal to 0, ie "0000"    
   LED(4) <= '1' when SW = "0000" else
              '0';
 
