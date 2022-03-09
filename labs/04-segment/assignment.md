@@ -5,12 +5,13 @@
 
 1. Listing of VHDL stimulus process from testbench file (`tb_hex_7seg.vhd`) with asserts. Verify all input combinations. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
-p_stimulus : process
+```vhdl
+    p_stimulus : process
     begin
         report "Stimulus process started" severity note;
 
         -- First test case
-        s_hex <= "0000"; wait for 50 ns; --0
+        s_hex <= "0000"; wait for 50 ns;
         assert (s_seg = "0000001")
         report "Input combination 0000 FAILED" severity error;
 
@@ -52,7 +53,7 @@ p_stimulus : process
         assert (s_seg = "0000100")
         report "Input combination 1001 FAILED" severity error;
 
-        s_hex <= "1010"; wait for 50 ns; --a
+        s_hex <= "1010"; wait for 50 ns; --A
         assert (s_seg = "0001000")
         report "Input combination 1010 FAILED" severity error;
 
@@ -60,7 +61,7 @@ p_stimulus : process
         assert (s_seg = "1100000")
         report "Input combination 1011 FAILED" severity error;
 
-        s_hex <= "1100"; wait for 50 ns; --c
+        s_hex <= "1100"; wait for 50 ns; --C
         assert (s_seg = "0110001")
         report "Input combination 1100 FAILED" severity error;
 
@@ -68,18 +69,20 @@ p_stimulus : process
         assert (s_seg = "1000010")
         report "Input combination 1101 FAILED" severity error;
         
-        s_hex <= "1110"; wait for 50 ns; --e
+        s_hex <= "1110"; wait for 50 ns; --E
         assert (s_seg = "0110000")
         report "Input combination 1110 FAILED" severity error;        
 
-        s_hex <= "1111"; wait for 50 ns; --f
+        s_hex <= "1111"; wait for 50 ns; --F
         assert (s_seg = "0111000")
         report "Input combination 1111 FAILED" severity error;        
 
     
-        report "Stimulus process finished" severity note;
+        report "Stimulus process finished. You're great, bro." severity note;
         wait;
     end process p_stimulus;
+
+```
 
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
