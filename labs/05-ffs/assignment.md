@@ -29,7 +29,8 @@ end architecture Behavioral;
 
 2. Screenshot with simulated time waveforms. Try to simulate both flip-flops in a single testbench with a maximum duration of 200 ns, including reset. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   ![05-ffs](https://user-images.githubusercontent.com/99410897/158694199-2dea45d1-f935-4094-80e2-05904f14ba42.jpeg)
+
 
 ### Shift register
 
