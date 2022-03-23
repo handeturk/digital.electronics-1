@@ -34,7 +34,8 @@
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   ![WhatsApp Image 2022-03-23 at 23 13 37](https://user-images.githubusercontent.com/99410897/159806064-84fca633-587a-4f84-8e9f-f85bb1ddd182.jpeg)
+
 
 ### Two counters
 
